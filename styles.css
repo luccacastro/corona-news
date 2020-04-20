@@ -185,6 +185,14 @@ body {
     grid-area: 1 / 1 / 2 / 2;
 }
 
+.news-content img {
+    vertical-align: middle;
+}
+
+.news-img img {
+    vertical-align: middle;
+}
+
 .news-img {
     grid-area: 1 / 2 / 2 / 3;
 }
