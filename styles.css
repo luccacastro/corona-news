@@ -62,7 +62,7 @@ body {
 
 .text-img h1 {
     font-family: 'Muli';
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 800;
     color: #1351d8;
     text-shadow: 3px 3px 0px #38B8F7
@@ -169,6 +169,7 @@ body {
 }
 
 .news-size {
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -177,7 +178,6 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    padding: 50px;
     margin-top: -33vh;
 }
 
@@ -218,6 +218,10 @@ body {
     position: relative;
     background-color: #ff5470;
     z-index: 1;
+}
+
+.news-2 .news-img {
+    fill: url(ny.jpg);
 }
 
 .news-3 {
